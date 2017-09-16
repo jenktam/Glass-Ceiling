@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+  font-family: 'Expletus Sans';
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  z-index: 0;
+}
+
+h1 {
+  color: #252010;
+  font-family: 'Expletus Sans';
+  font-size: 48px;
+  margin: 0;
+  padding: 40px;
+  justify-content: center;
+  background-color: #E7C859;
+  border-bottom: 4px dashed #111;
+}
+
+h2 {
+  font-family: 'Expletus Sans';
+}
+
+h1, .footer, .header p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  color: #252010;
+  font-family: 'Expletus Sans';
+  font-size: 17px;
+  margin: 0;
+  padding: 4px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.footer {
+  height: 50px;
+  background-color: #eee;
+  border-top: 1px solid #e0e0e0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  margin: 1rem auto 0;
+}
+
+.footer span {
+  word-spacing: 5px;
+  font-size: 15px;
+}
+
+.footer span a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6565C3;
+  word-spacing: 5px;
+}
+
+.footer span a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4A4AA9;
+  word-spacing: 5px;
+}
+
+i.ion-android-happy.active {
+  font-size: 20px;
+}
+
+.reactTable {
+  z-index: 1;
+  background-color: white;
+}
+
+p, .reactTable {
+  margin: 15px;
+}
+
+button.-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20%;
+  height: 100%;
+  border: 0;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 1em;
+  color: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.1);
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters input[type="text"], .filters label {
+  width: 20%;
+  align-items: flex-end;
+  margin: 10px;
+  text-align: center;
+}
+
+.rt-th {
+  background-color: #E7C859;
+}
+
+.ReactTable .-pagination {
+  padding: 10px 5px !important;
+}
+
+.ReactTable .-pagination .-btn {
+  margin: 0;
+  padding: 0;
+}
+
+.tips {
+  text-align: center;
+}
+
+.tipsTable td{
+  text-align: left;
+}
+
+table.tipsTable {
+  margin: auto;
+}
+
+.tipsTable th {
+  letter-spacing: 2px;
+}
+
+.tipsTable tr th, .tipsTable tr td {
+  border: 1px solid #292E85;
+  padding: 5px;
+  background: #B8BBE7;
+}
+
+p.tipArrow {
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+
+
+/* X-Large and Large Devices*/
+@media screen and (min-width: 1200px) {
+
+}
+
+/* Medium Devices */
+@media screen and (max-width: 1199px) {
+  h1 {
+    padding: 10px 30px;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+/* Small and X-Small Devices */
+@media screen and (max-width: 480px) {
+  h1 {
+    padding: 10px 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  p, .reactTable {
+    margin: 5px 10px;
+  }
+
+  .header p {
+    padding: 0 10px 10px;
+  }
+
+  .tips {
+    text-align: center;
+    margin: 5px 10px;
+  }
+}

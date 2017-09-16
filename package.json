@@ -1,0 +1,41 @@
+{
+  "name": "glass-ceiling",
+  "version": "1.0.0",
+  "description": "This app consumes Seattle.gov's public API and renders the wage information in a sortable, paginated table. Provide several filtering options.",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "webpack --watch & nodemon ./server/index.js",
+    "start-dev": "webpack -w & nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.7",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "match-sorter": "^1.8.1",
+    "namor": "^1.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-table": "^6.5.3",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.6.1",
+    "nodemon": "^1.12.0",
+    "volleyball": "^1.4.1",
+    "webpack": "^3.5.5"
+  },
+  "author": "Jen Tam",
+  "license": "ISC"
+}
