@@ -5,21 +5,24 @@ This [website](https://glass-ceiling.herokuapp.com/) provides an analysis of the
 ![Gender Gap](/public/img/gender-gap.jpg)
 
 ## Features
-* Filtering Data
-* Sorting Data
-* Pagination
 
+| Path        | Description           |
+| ------------- |:-------------|
+| Filtering      | <ul><li>Filter by job titles where men or women make more.</li><li>Filter by pay difference gap (in dollars and percentage)</li></ul>|
+| Sorting      | <ul><li>Data is by default sorted alphabetically by job title</li><li>Data can also be sorted by any of the headers.</li></ul>|
+| Pagination      | <ul><li>25 rows revealed per page by default.</li><li>Additional ability to view data by 5 - 100 rows at once.</li></ul>|
+
+## Navigating Through The Table
 ### Filtering
-* Filter by job titles where men or women make more.
-* Filter by pay difference gap (in dollars and percentage).
+* **General Filtering** - Type into the input fields of each of the columns.
+* **Filter by Job Titles** - Click on the drop down of the column "Gender Makes More". Choose "Women" or "Men" and see the table sort between the value selected. "Show All" will return the table to its original view, displaying all rows.
+* **Filter by Pay Difference Gap** - In the input field of "Pay Difference Gap" by $ and by %, type value into input field and see only results greater than or equal to your desired value.
 
 ### Sorting
-* Data is by default sorted alphabetically by job title
-* Data can also be sorted by any of the headers.
+* Click on desired of the columns to sort in ascending or descending order.
 
 ### Pagination
-* 25 rows revealed per page by default.
-* Additional ability to view data by 5 - 100 rows at once.
+* Go to bottom of the table and either type in the page number you would like to view or select the number of desired rows you'd like to view per page through the dropdown. You can also navigate through the pages by clicking hte next and previous buttons.
 
 ## File Structure
 ```
