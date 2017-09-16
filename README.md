@@ -1,6 +1,6 @@
 # The Glass Ceiling
 
-This application provides an analysis of the gender wage gap in Seattle by profession. It serves to provide factual data from the City of Seattle's API and answer whether the glass ceiling still exists and in which fields is it the most prevalent.
+This [website](https://glass-ceiling.herokuapp.com/) provides an analysis of the gender wage gap in Seattle by profession. It serves to provide factual data from the City of Seattle's API and answer whether the glass ceiling still exists and in which fields it is the most prevalent.
 
 ![Gender Gap](/public/img/gender-gap.jpg)
 
@@ -23,7 +23,7 @@ This application provides an analysis of the gender wage gap in Seattle by profe
 
 ## File Structure
 ```
-Seattle Wages
+Glass Ceiling
 ├── browser
 │   ├── Footer.js
 │   ├── Header.js
