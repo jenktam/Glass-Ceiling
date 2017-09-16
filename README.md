@@ -63,5 +63,6 @@ This app was built with the following:
 * [The City of Seattle's Web API](https://data.seattle.gov/City-Business/City-of-Seattle-Wages-Comparison-by-Gender-All-Job/cf52-s8er)
 * [React Table](https://github.com/react-tools/react-table)
 * React.js
+* Lodash
 * Node.js
 * Express

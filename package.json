@@ -15,7 +15,6 @@
     "express": "^4.15.4",
     "lodash": "^4.17.4",
     "match-sorter": "^1.8.1",
-    "namor": "^1.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
