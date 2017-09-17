@@ -14,15 +14,15 @@ This [website](https://glass-ceiling.herokuapp.com/) provides an analysis of the
 
 ## Navigating Through The Table
 ### Filtering
-* **General Filtering** - Type into the input fields of each of the columns.
-* **Filter by Job Titles** - Click on the drop down of the column "Gender Makes More". Choose "Women" or "Men" and see the table sort between the value selected. "Show All" will return the table to its original view, displaying all rows.
+* **General Filtering** - Type into input fields of desired column.
+* **Filter by Job Titles** - Click on drop down of desired column "Gender Makes More". Choose "Women" or "Men" and see the table sort between the value selected. "Show All" will return the table to its original view, displaying all rows.
 * **Filter by Pay Difference Gap** - In the input field of "Pay Difference Gap" by $ and by %, type value into input field and see only results greater than or equal to your desired value.
 
 ### Sorting
 * Click on desired of the columns to sort in ascending or descending order.
 
 ### Pagination
-* Go to bottom of the table and either type in the page number you would like to view or select the number of desired rows you'd like to view per page through the dropdown. You can also navigate through the pages by clicking hte next and previous buttons.
+* Go to bottom of the table and either type in the page number or select the number of desired rows you'd like to view per page through the dropdown. You can also navigate through the pages by clicking the next and previous buttons.
 
 ## File Structure
 ```
